@@ -1,0 +1,30 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1028",
+      "name": "日历",
+      "font_class": "rili",
+      "unicode": "f0063",
+      "unicode_decimal": 983139
+    },
+    {
+      "icon_id": "2506184",
+      "name": "浏览",
+      "font_class": "liulan",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "11372768",
+      "name": "评论",
+      "font_class": "pinglun",
+      "unicode": "e8c5",
+      "unicode_decimal": 59589
+    }
+  ]
+}
