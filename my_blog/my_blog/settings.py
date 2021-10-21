@@ -51,7 +51,6 @@ INSTALLED_APPS = [
     'ckeditor',
     'mptt',
     'notifications',
-    'gunicorn',
 ]
 
 
