@@ -23,12 +23,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '3^f2*3yuvlxy9n&_2iqeth$i+vd9figvhg%n(6p*v$^q$=02mg'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['.liyuwang.com','121.40.161.248']
+ALLOWED_HOSTS = ['121.40.161.248','127.0.0.1', 'localhost ']
 
-# 静态文件收集目录
-STATIC_ROOT = os.path.join(BASE_DIR, 'collected_static')
 
 # Application definition
 
@@ -51,7 +49,6 @@ INSTALLED_APPS = [
     'ckeditor',
     'mptt',
     'notifications',
-    'gunicorn',
 ]
 
 
@@ -139,6 +136,8 @@ STATICFILES_DIRS = (
 )
 
 STATIC_URL = '/static/'
+# 静态文件收集目录
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 # 媒体文件地址
 MEDIA_URL = '/media/'
